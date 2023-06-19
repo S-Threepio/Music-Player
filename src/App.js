@@ -12,7 +12,7 @@ import Explore from "./pages/Explore";
 function App() {
   return (
     <Router>
-      <div className="flex flex-col h-screen bg-gray-800 text-white">
+      <div className="flex flex-col m-0 overflow-y-hidden text-white">
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Homepage />} />
