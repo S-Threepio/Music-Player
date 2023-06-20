@@ -5,7 +5,7 @@ import music from "../imgs/music.png";
 function Navbar() {
   return (
     <header className="flex flex-row my-2 md:my-6">
-      <div className="flex items-center text-xl font-semibold gap-2 mx-6">
+      <div className="md:absolute top-0 flex items-center text-xl font-semibold m-4 gap-2 mx-6">
         <img src={music} className="h-10" />
         Music
       </div>
